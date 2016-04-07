@@ -1,0 +1,50 @@
+body {
+  background: #084C61; }
+
+div {
+  border-style: solid;
+  border-color: #E3B505;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center; }
+
+#title {
+  border: none;
+  font-family: 'Clicker Script', cursive;
+  font-size: 500%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #56A3A6; }
+
+#shell {
+  background: #E3B505;
+  height: 100%; }
+
+#screen {
+  background: white;
+  height: 60px;
+  font-size: 30px;
+  text-align: right;
+  color: #4F6D7A;
+  padding-right: 2%; }
+
+.keys {
+  background: #DB504A;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer; }
+
+.keys:hover {
+  background: #56A3A6; }
+
+#equals {
+  background: #4F6D7A;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  cursor: pointer; }
+
+#equals:hover {
+  background: #56A3A6; }
+
+/*# sourceMappingURL=calculator.css.map */

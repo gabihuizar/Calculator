@@ -1,0 +1,57 @@
+$darkblue: #084C61;
+$redorange: #DB504A;
+$yellow: #E3B505;
+$softdarkblue: #4F6D7A;
+$lightblue: #56A3A6;
+
+body {
+  background: $darkblue;
+}
+div {
+  border-style: solid;
+  border-color: $yellow;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+#title {
+  border: none;
+  font-family: 'Clicker Script',
+   cursive;
+  font-size: 500%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: $lightblue;
+}
+#shell {
+  background: $yellow; 
+  height: 100%;
+}
+#screen {
+  background: white;
+  height: 60px;
+  font-size: 30px;
+  text-align: right;
+  color: $softdarkblue;
+  padding-right: 2%;
+}
+
+.keys {
+  background: $redorange;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.keys:hover {
+  background: $lightblue;
+}
+#equals {
+  background: $softdarkblue;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#equals:hover {
+  background: $lightblue;
+}
